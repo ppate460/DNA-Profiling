@@ -1,0 +1,49 @@
+*********************************************************
+ourvector<NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE> stats:
+ # of vectors created:   9
+ # of elements inserted: 19
+ # of elements accessed: 311
+*********************************************************
+*********************************************************
+ourvector<c> stats:
+ # of vectors created:   5
+ # of elements inserted: 252
+ # of elements accessed: 2013
+*********************************************************
+
+
+
+--> Ourvector Analysis:
+    Created an app that matches the DNA from the file given by user and if there
+    is a match, display the person's name from whoever the DNA matches too.
+    A total of four ourvector vectors created through the structural of the
+    program. Each of them associated and designed to do a specific task as
+    required.
+    1. ourvector <string> &fileDatabaseVec, this is a string vector accepts all of
+    the data read through the file and stored in this vector, basically it stores
+    all of the Database from the file given from user.
+    2. ourvector <char> &fileDNAVec, this is a character vector that stores the DNA
+    of the given user file, and displays whenever the command demands
+    3. ourvector <char> titleVec, this is also a character vector that has only the
+    title of any Database file given, the reason I have to create this vector is
+    because the Database vector display should not display the title of the vector
+    and basically I could not find the way to eliminate the title in DB vector
+    4. ourvector <int> longestConsecutive, this is an integer vector that stores
+    the longest consecutive STRs, and later use them for search milestone to
+    detect the DNA matched person.
+    -> All of the variables created in the program were needed to store some temporary
+    or referenced variables that reflect back into whatever the function is passed.
+    counting_STRs() is the function where I needed to keep track of so many things
+    at once that forces me to create few variables, each variable's job is to hold
+    some specific item/element so that I can use them in ahead of the program.
+
+    -> The total number of vectors created for the member function _stats at the
+    end of the app, # of vectors created:   5, this are the total number of vectors 
+    created, includes DNA, DB, longestCons., title, and index vectors. 
+    The # of elements inserted: 252, these are the total amount of each DNA, title,
+    DB, etc elements are inserted in variety of different vectors. 
+    The # of elements accessed: 2013, this number represents the number of times 
+    the program accessed the elements in-order to use or display them through the 
+    procedure of the program.
+    The vectors are created at the following lines:
+    line 224, 296, 297, 298, 299. 
